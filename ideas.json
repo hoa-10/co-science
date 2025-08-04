@@ -1,0 +1,10 @@
+{
+  "Name": "machine_learning_ndt",
+  "Title": "Machine Learning for Non-Destructive Testing",
+  "Experiment": "This project explores the application of machine learning techniques to analyze data collected from non-destructive testing (NDT) methods. It specifically implements Random Forest and Decision Tree algorithms to classify signal-based data into two categories: anomaly (label 0) and normal (label 1). The input features used for classification are extracted from raw signal data and include signal energy, statistical measures (mean, variance, skewness, kurtosis), and frequency domain characteristics (e.g., spectral components). The goal is to develop a robust model that can automatically detect defects in materials or structures without causing any damage, thereby improving reliability and reducing manual inspection effort.",
+  "Interestingness": 9,
+  "Feasibility": 7,
+  "Novelty": 9,
+  "novel": true
+}
+  

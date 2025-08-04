@@ -8,7 +8,6 @@ This project is an intelligent assistant for generating and analyzing Python cod
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/your-username/your-project.git
 cd your-project
 2️⃣ (Recommended) Create a Virtual Environment

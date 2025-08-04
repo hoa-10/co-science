@@ -6,39 +6,23 @@ This project is an intelligent assistant for generating and analyzing Python cod
 
 ## 🔧 Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/your-username/your-project.git
 cd your-project
-2️⃣ (Recommended) Create a virtual environment
-bash
-Copy
-Edit
-# For Linux/macOS
-python -m venv venv
+2️⃣ (Recommended) Create a Virtual Environment
+For Linux/macOS:
+bashpython -m venv venv
 source venv/bin/activate
-
-# For Windows
-python -m venv venv
+For Windows:
+bashpython -m venv venv
 venv\Scripts\activate
-
-3️⃣ Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+3️⃣ Install Dependencies
+bashpip install -r requirements.txt
 🔐 Configure API Key
 Create a .env file in the root directory and add your Google Generative AI API key:
-
-env
-Copy
-Edit
-GOOGLE_API_KEY=your_google_api_key_here
-
+envGOOGLE_API_KEY=your_google_api_key_here
 🚀 Running the Project
 If you have a script like main.py, simply run:
-
-bash
-Copy
-Edit
-python test.py
+bashpython test.py

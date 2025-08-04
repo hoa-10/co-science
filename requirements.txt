@@ -1,0 +1,7 @@
+pandas
+python-dotenv
+google-generativeai
+aider-chat
+openai
+tensorflow
+numpy

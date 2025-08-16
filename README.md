@@ -13,7 +13,7 @@ Follow these steps to set up the project locally:
 ## 1️⃣ Clone the Repository
 
 Clone the project repository from GitHub and navigate to the project directory:
-###2️⃣ Create a Virtual Environment (Recommended)
+##2️⃣ Create a Virtual Environment (Recommended)
 #For Linux/macOS:
 python -m venv venv
 source venv/bin/activate

@@ -14,9 +14,9 @@ Follow these steps to set up the project locally:
 
 Clone the project repository from GitHub and navigate to the project directory:
 
-###2️⃣ Create a Virtual Environment (Recommended)
+2️⃣ Create a Virtual Environment (Recommended)
 
-#For Linux/macOS:
+For Linux/macOS:
 
 python -m venv venv
 
@@ -28,7 +28,7 @@ python -m venv venv
 
 venv\Scripts\activate
 
-####3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 
 #Install the required Python packages listed in requirements.txt:
 

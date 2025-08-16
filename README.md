@@ -43,12 +43,12 @@ Normalized Data: Download here
 6️⃣ Run the Project
 Execute the main script to start the application:
 bashpython test.py
-📝 Notes
+📝 Important Notes
 
-You should modify ideas.json for your specific tasks
-Ensure your system has Python 3.7+ installed
-Verify that the .env file is correctly configured with a valid Gemini API key
-Place the downloaded datasets in the appropriate directory as specified in your project configuration
+Configuration: You should modify ideas.json for your specific tasks
+Python Version: Ensure your system has Python 3.7+ installed
+API Key: Verify that the .env file is correctly configured with a valid Gemini API key
+Dataset Location: Place the downloaded datasets in the appropriate directory as specified in your project configuration
 
 🎥 Demo
 Check out the video demonstration: YouTube Demo
@@ -57,6 +57,43 @@ Check out the video demonstration: YouTube Demo
 Python 3.7 or higher
 Valid Google Generative AI (Gemini) API key
 Internet connection for AI model access
+Git (for cloning the repository)
+
+🛠️ Technologies Used
+
+Google Generative AI (Gemini) - Core AI engine
+aider-chat - AI-powered coding assistant
+Python - Primary programming language
+Custom prompt-based logic - Enhanced AI interactions
+
+🚨 Troubleshooting
+Common Issues
+
+API Key Error: Make sure your Gemini API key is valid and properly set in the .env file
+Dataset Missing: Verify both datasets are downloaded and placed in the correct directory
+Python Version: Ensure you're using Python 3.7 or higher
+Virtual Environment: Always activate your virtual environment before running the project
+
+Getting Help
+If you encounter issues:
+
+Check that all prerequisites are met
+Verify your internet connection
+Ensure all files are properly downloaded and configured
 
 🤝 Contributing
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+We welcome contributions! Please feel free to:
+
+Submit issues for bugs or feature requests
+Fork the repository
+Create pull requests for improvements
+Share your ideas and feedback
+
+📄 License
+This project is open source. Please check the LICENSE file for more details.
+🔗 Links
+
+Project Repository
+Video Demo
+Raw Data Download
+Normalized Data Download

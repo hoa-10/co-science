@@ -14,7 +14,7 @@ Follow these steps to set up the project locally:
 
 Clone the project repository from GitHub and navigate to the project directory:
 
-2️⃣ Create a Virtual Environment (Recommended)
+###2️⃣ Create a Virtual Environment (Recommended)
 
 #For Linux/macOS:
 
@@ -28,17 +28,17 @@ python -m venv venv
 
 venv\Scripts\activate
 
-3️⃣ Install Dependencies
+####3️⃣ Install Dependencies
 
 #Install the required Python packages listed in requirements.txt:
 
 pip install -r requirements.txt
 
-4️⃣ Configure API Key
+#####4️⃣ Configure API Key
 #Create a .env file in the project root directory and add your Google Generative AI (Gemini) API key:
 GEMINI_API_KEY=your_google_api_key_here
 
-5️⃣ Download Datasets
+######5️⃣ Download Datasets
 #Download the required datasets from the following links and place them in the appropriate project directory:
 
 Raw Data:  https://drive.google.com/file/d/1JuoqJGkzN_KLQKQmL2mzwJuwZKlBNIaa/view?usp=sharing

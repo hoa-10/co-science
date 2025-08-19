@@ -6,3 +6,4 @@ coding-agent/
 analysis/
 raw_data.npz
 my_model.h5
+.aider*

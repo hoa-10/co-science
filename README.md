@@ -1,55 +1,104 @@
-# 🤖 AI Code Assistant Project
+# 🤖 AI Research Assistant for NDT Analysis
 
-An intelligent assistant for generating and analyzing Python code, powered by Google Generative AI (Gemini), aider-chat, and custom prompt-based logic.
+An intelligent assistant for generating and analyzing Python code for Non-Destructive Testing (NDT) data analysis, powered by Google Generative AI (Gemini) and advanced prompt engineering.
 
 ## 🚀 Overview
 
-This project provides a robust solution for automating Python code generation and analysis, leveraging advanced AI tools to streamline development workflows.
+This project provides an automated solution for NDT data analysis through AI-powered code generation. It features:
+
+- **Automated Data Analysis**: AI-driven analysis of NDT datasets
+- **Code Generation**: Intelligent Python code generation for experiments
+- **Interactive Interface**: User-friendly Gradio web interface
+- **Experiment Management**: Automated experiment execution and result visualization
+- **Plot Generation**: Automatic visualization of analysis results
 
 ## 🔧 Setup Instructions
 
-Follow these steps to set up the project locally:
+### 1️⃣ Clone the Repository
 
-## 1️⃣ Clone the Repository
+```bash
+git clone <repository-url>
+cd ai-research-assistant
+```
 
-Clone the project repository from GitHub and navigate to the project directory:
+### 2️⃣ Create a Virtual Environment
 
-2️⃣ Create a Virtual Environment (Recommended)
-
-For Linux/macOS:
-
+**Linux/macOS:**
+```bash
 python -m venv venv
-
 source venv/bin/activate
+```
 
-#For Windows:
-
+**Windows:**
+```bash
 python -m venv venv
-
 venv\Scripts\activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
-#Install the required Python packages listed in requirements.txt:
-
+```bash
 pip install -r requirements.txt
+```
 
-#####4️⃣ Configure API Key
-#Create a .env file in the project root directory and add your Google Generative AI (Gemini) API key:
+### 4️⃣ Configure API Key
+
+Create a `.env` file in the project root directory and add your Google Generative AI (Gemini) API key:
+
+```env
 GEMINI_API_KEY=your_google_api_key_here
+```
 
-######5️⃣ Download Datasets
-#Download the required datasets from the following links and place them in the appropriate project directory:
+### 5️⃣ Download Datasets
 
-Raw Data:  https://drive.google.com/file/d/1JuoqJGkzN_KLQKQmL2mzwJuwZKlBNIaa/view?usp=sharing
-Normalized Data: https://drive.google.com/file/d/1TuZ7pOpJtiDSh-mezr3Y44FCFCTppDe2/view?usp=sharing
+Download the required datasets and place them in the project root directory:
 
+- **Raw Data**: [pect_ndt_full_dataset.npz](https://drive.google.com/file/d/1JuoqJGkzN_KLQKQmL2mzwJuwZKlBNIaa/view?usp=sharing)
+- **Normalized Data**: [raw_data.npz](https://drive.google.com/file/d/1TuZ7pOpJtiDSh-mezr3Y44FCFCTppDe2/view?usp=sharing)
 
-#⚠️ Important: Ensure both datasets are downloaded and extracted to the correct location before running the project.
+⚠️ **Important**: Ensure both datasets are downloaded and placed in the project root before running the application.
 
-##6️⃣ Run the Project
-#Execute the main script to start the application:
+### 6️⃣ Run the Application
+
+Execute the main script to start the web interface:
+
+```bash
 python test.py
+```
 
-##🎥Video Demo:
-https://www.youtube.com/watch?v=VRm03BItWrE
+The application will launch a Gradio interface accessible via your web browser.
+
+## 📁 Project Structure
+
+```
+├── base_code/              # Core AI processing modules
+│   ├── coding_loop_enhance.py
+│   └── processing_data.py
+├── prompt/                 # AI prompt templates
+│   ├── analyze_data.py
+│   └── trainning_prompt.py
+├── perform_experiment.py   # Experiment execution logic
+├── test.py                # Main application entry point
+├── ideas.json             # Experiment ideas configuration
+└── requirements.txt       # Python dependencies
+```
+
+## 🎯 Usage
+
+1. **Load Ideas**: Import experiment ideas from JSON configuration
+2. **Data Analysis**: Run automated analysis on NDT datasets
+3. **Code Generation**: Generate Python code for specific experiments
+4. **Execute Experiments**: Run generated code and collect results
+5. **Visualize Results**: Generate and review plots automatically
+
+## 🎥 Demo
+
+Watch the project demonstration: [YouTube Video](https://www.youtube.com/watch?v=VRm03BItWrE)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit issues and enhancement requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

@@ -1,6 +1,9 @@
 # 🤖 AI Research Assistant for NDT Analysis
 
 A Human-in-the-Loop Multi-AgentSystem for Accelerating Pulsed Eddy Current TestingCorrosion Detection
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hoa-10/co-science/refs/heads/main/workflow2.jpg?raw=true" alt="workfow" width="600"/>
+</p>
 
 ## 🚀 Overview
 
@@ -94,6 +97,11 @@ The application will launch a Gradio interface accessible via your web browser.
 ## 🎥 Demo
 
 Watch the project demonstration: [YouTube Video](https://www.youtube.com/watch?v=VRm03BItWrE)
+
+## Result
+<p align="center">
+  <img src="https://github.com/hoa-10/co-science/blob/main/performance.png?raw=true" alt="Performance" width="600"/>
+</p>
 
 ## 🤝 Contributing
 

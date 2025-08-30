@@ -1,6 +1,6 @@
 # 🤖 AI Research Assistant for NDT Analysis
 
-An intelligent assistant for generating and analyzing Python code for Non-Destructive Testing (NDT) data analysis, powered by Google Generative AI (Gemini) and advanced prompt engineering.
+A Human-in-the-Loop Multi-AgentSystem for Accelerating Pulsed Eddy Current TestingCorrosion Detection
 
 ## 🚀 Overview
 
@@ -17,7 +17,7 @@ This project provides an automated solution for NDT data analysis through AI-pow
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hoa-10/co-science.git
 cd ai-research-assistant
 ```
 
@@ -99,6 +99,4 @@ Watch the project demonstration: [YouTube Video](https://www.youtube.com/watch?v
 
 Contributions are welcome! Please feel free to submit issues and enhancement requests.
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.

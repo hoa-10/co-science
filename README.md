@@ -96,7 +96,7 @@ The application will launch a Gradio interface accessible via your web browser.
 
 ## 🎥 Demo
 
-Watch the project demonstration: [YouTube Video](https://www.youtube.com/watch?v=VRm03BItWrE)
+Watch the project demonstration: [YouTube Video](https://youtu.be/QaPIhvVq33M)
 
 ## Result
 <p align="center">

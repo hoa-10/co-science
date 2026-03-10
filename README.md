@@ -56,8 +56,8 @@ GEMINI_API_KEY=your_google_api_key_here
 
 Download the required datasets and place them in the project root directory:
 
-- **Raw Data**: [pect_ndt_full_dataset.npz](https://drive.google.com/file/d/1JuoqJGkzN_KLQKQmL2mzwJuwZKlBNIaa/view?usp=sharing)
-- **Normalized Data**: [raw_data.npz](https://drive.google.com/file/d/1TuZ7pOpJtiDSh-mezr3Y44FCFCTppDe2/view?usp=sharing)
+- **Raw Data**: [pect_ndt_full_dataset.npz](https://drive.google.com/file/d/16Uzy_oml5K2alAY991NjbtW72s4WPvYl/view?usp=sharing)
+
 
 ⚠️ **Important**: Ensure both datasets are downloaded and placed in the project root before running the application.
 
